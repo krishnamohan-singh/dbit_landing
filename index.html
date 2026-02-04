@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidyashilp University - B.Tech CSE Data Science</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    VIDYASHILP <span>UNIVERSITY</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#programs">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#admissions">Admissions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#campus">Campus Life</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-apply-btn" href="#contact">Apply Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Floating Enquire Button -->
+    <a href="#contact" class="float-enquire-btn">
+        <i class="fas fa-comment-alt"></i>
+    </a>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">VIDYASHILP UNIVERSITY</h1>
+                    <h2 class="hero-subtitle">B.TECH IN COMPUTER SCIENCE AND ENGINEERING<br>DATA SCIENCE | AI/ML</h2>
+                    <h3 class="hero-tagline">BE BOLD.</h3>
+                    <p class="lead mb-4" style="font-size: 1.2rem;">Admissions Open 2026</p>
+                    <a href="#contact" class="btn btn-apply">Apply Now</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-form-container">
+                        <h4>Apply Now</h4>
+                        <form class="contact-form" id="heroForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="tel" class="form-control" placeholder="Mobile Number" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <select class="form-control" required>
+                                        <option value="">Select Program</option>
+                                        <option value="cse-ds">B.Tech CSE - Data Science</option>
+                                        <option value="cse-ai">B.Tech CSE - AI/ML</option>
+                                        <option value="other">Other Programs</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <select class="form-control" required>
+                                        <option value="">Select State</option>
+                                        <option value="karnataka">Karnataka</option>
+                                        <option value="maharashtra">Maharashtra</option>
+                                        <option value="tamilnadu">Tamil Nadu</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <select class="form-control" required>
+                                        <option value="">Select City</option>
+                                        <option value="bangalore">Bangalore</option>
+                                        <option value="mumbai">Mumbai</option>
+                                        <option value="chennai">Chennai</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="agreeCheckHero" required>
+                                <label class="form-check-label" for="agreeCheckHero">
+                                    I agree to receive information.
+                                </label>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-apply" style="width: 100%;">Register Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rest of your existing sections remain the same -->
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 stat-card">
+                    <div class="stat-number">04+</div>
+                    <div class="stat-label">Decades Of Academic Excellence</div>
+                </div>
+                <div class="col-md-3 col-sm-6 stat-card">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Students Impacted</div>
+                </div>
+                <div class="col-md-3 col-sm-6 stat-card">
+                    <div class="stat-number">300+</div>
+                    <div class="stat-label">Faculty Members</div>
+                </div>
+                <div class="col-md-3 col-sm-6 stat-card">
+                    <div class="stat-number">800+</div>
+                    <div class="stat-label">Awards Won</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="award-card">
+                        <div class="award-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 style="color: var(--vu-dark-blue); margin-bottom: 15px;">MOST EMERGING HIGHER EDUCATION INSTITUTE OF THE YEAR 2025</h3>
+                        <p style="color: var(--vu-gray); font-size: 1.1rem;">At the Indian Education Awards by Entrepreneur Media India</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="award-card">
+                        <div class="award-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 style="color: var(--vu-dark-blue); margin-bottom: 15px;">Ranked Among Top 5 New Age Emerging Universities</h3>
+                        <p style="color: var(--vu-gray); font-size: 1.1rem;">In the IIRF 2025 Rankings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forging Engineers Section -->
+    <section class="forging-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 forging-content">
+                    <h2 class="forging-title">FORGING THE ENGINEERS OF 2030 AND BEYOND</h2>
+                    <p class="forging-text">As we charge toward 2030, India will face a massive shortage of over 1.5 million AI / ML and Data Science experts, creating the biggest career gold rush of our lifetime.</p>
+                    <p class="forging-text">Step straight into that future with Vidyashilp University's cutting-edge B.Tech. (Hons.) CSE – Data Science.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="forging-image">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Future Engineers" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4 class="feature-title">Hands-on, challenge-driven projects from Day 1</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4 class="feature-title">AI-powered learning that stays with you forever</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4 class="feature-title">Interdisciplinary innovation with real startups</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h4 class="feature-title">Dedicated Centre for Learning Science & Emerging Technologies</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Superpower Section -->
+    <section class="superpower-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="superpower-title">MORE THAN A B.TECH - IT'S YOUR CAREER SUPERPOWER</h2>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <ul class="superpower-list">
+                        <li>An interdisciplinary curriculum that breaks all silos</li>
+                        <li>Open-choice academic system - you design your own path</li>
+                        <li>Sharpens data acumen from day one</li>
+                        <li>Deep focus on high-impact domain knowledge</li>
+                        <li>Mandatory industry internships + full-year capstone project</li>
+                        <li>Prepares you for top industry, academia, or research careers</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="forging-image">
+                        <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Career Superpower" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry-Aligned Minors -->
+    <section class="minors-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">INDUSTRY-ALIGNED MINORS YOU CAN ADD TO YOUR DEGREE</h2>
+                <p class="section-subtitle">Merge these pathways with your core strengths to position yourself as a standout professional top employers prioritize.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <div class="minor-category">
+                        <h3 class="minor-title">B.Tech AI/ML Minors</h3>
+                        <div class="text-center">
+                            <span class="minor-item">Economics</span>
+                            <span class="minor-item">Marketing</span>
+                            <span class="minor-item">Psychology</span>
+                            <span class="minor-item">Finance</span>
+                            <span class="minor-item">Design</span>
+                            <span class="minor-item">Law</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="minor-category">
+                        <h3 class="minor-title">B.Tech DS Minors</h3>
+                        <div class="text-center">
+                            <span class="minor-item">Business Analytics</span>
+                            <span class="minor-item">Healthcare Analytics</span>
+                            <span class="minor-item">Financial Modeling</span>
+                            <span class="minor-item">Cybersecurity</span>
+                            <span class="minor-item">IoT & Edge Computing</span>
+                            <span class="minor-item">Cloud Computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Paths -->
+    <section class="careers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">WHERE THIS DEGREE TAKES YOU</h2>
+                <p class="section-subtitle">ONE B.TECH. ENDLESS DREAM CAREERS</p>
+            </div>
+
+            <div class="text-center">
+                <span class="career-item">Data Analyst</span>
+                <span class="career-item">Business Intelligence Developer</span>
+                <span class="career-item">Machine Learning Engineer</span>
+                <span class="career-item">AI Research Scientist</span>
+                <span class="career-item">Applications Architect</span>
+                <span class="career-item">Enterprise Architect</span>
+                <span class="career-item">Infrastructure Architect</span>
+                <span class="career-item">Data Engineer</span>
+                <span class="career-item">Product Analyst</span>
+                <span class="career-item">Analytics Consultant</span>
+
+                <p class="career-note">These roles are waiting for Vidyashilp graduates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eligibility -->
+    <section class="eligibility-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">YOU'RE ELIGIBLE IF YOU MEET ANY ONE OF THESE</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="eligibility-card">
+                        <h4 class="eligibility-title">Cambridge A-Level</h4>
+                        <p>Physics + Maths + one more subject; English at AS/IGCSE/GCSE</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="eligibility-card">
+                        <h4 class="eligibility-title">50%+ in 10+2</h4>
+                        <p>Physics, Chemistry, Maths mandatory + one from Biology/Biotech/CS/Vocational</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="eligibility-card">
+                        <h4 class="eligibility-title">IB Diploma / Certificate</h4>
+                        <p>24+ total points with 4+ in Physics & Maths</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="eligibility-card special">
+                        <h4 class="eligibility-title">Valid JEE Main or any State Engineering Entrance rank</h4>
+                        <p>(highly preferred for bigger scholarships)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scholarships -->
+    <section class="scholarships-section">
+        <div class="container">
+            <h2 class="scholarship-title">SCHOLARSHIPS UP TO 100%</h2>
+            <p class="scholarship-subtitle">Because talent should never be limited by money</p>
+
+            <div class="scholarship-percent">100%</div>
+        </div>
+    </section>
+
+    <!-- Faculty -->
+    <section class="faculty-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">HANDS-ON RESEARCH WITH PHDS & INDUSTRY LEADERS</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="faculty-card">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Prof. Smitha Rao" class="faculty-img">
+                        <h5 class="faculty-name">PROF. SMITHA RAO</h5>
+                        <p class="faculty-role">Program Chair, B.Tech (Hons) - Computer Science and Engineering (Data Science)</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="faculty-card">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Dr. Shital Bhatt" class="faculty-img">
+                        <h5 class="faculty-name">DR. SHITAL BHATT</h5>
+                        <p class="faculty-role">Associate Professor, School of Computational and Data Sciences</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="faculty-card">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Mr. M. Mallikarjuna" class="faculty-img">
+                        <h5 class="faculty-name">MR. M. MALLIKARJUNA</h5>
+                        <p class="faculty-role">Assistant Professor, School of Computational and Data Sciences</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="faculty-card">
+                        <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Dr. Anupama A.V." class="faculty-img">
+                        <h5 class="faculty-name">Dr. Anupama A.V.</h5>
+                        <p class="faculty-role">Assistant Professor, School of Engineering and Technology<br>PhD in Materials Science, IISc Bangalore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Life -->
+    <section class="campus-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="campus-title">THRIVE IN A WHOLESOME CAMPUS VIBE</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="campus-card">
+                        <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" class="campus-card-img" alt="Week of Welcome">
+                        <div class="campus-card-body">
+                            <h5 class="campus-card-title">Week of Welcome Highlights</h5>
+                            <p>Experience the vibrant start to university life with our orientation week.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="campus-card">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" class="campus-card-img" alt="BOLD Beginnings">
+                        <div class="campus-card-body">
+                            <h5 class="campus-card-title">BOLD Beginnings 2024</h5>
+                            <p>Our flagship induction program for new students.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="campus-card">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" class="campus-card-img" alt="Townhall">
+                        <div class="campus-card-body">
+                            <h5 class="campus-card-title">Under 25 Townhall</h5>
+                            <p>Lifting the lid on innovation and entrepreneurship.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About University -->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ABOUT VIDYASHILP UNIVERSITY WHO WE REALLY ARE</h2>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="about-text">Vidyashilp University, Bengaluru's forward-thinking liberal education institution, is dedicated to shaping the leaders of tomorrow. Its interdisciplinary curriculum allows students to seamlessly blend Data Science with fields like Design, Business, Psychology, and Economics, creating a personalised learning journey that sparks creativity and critical thinking.</p>
+                    <p class="about-text">With a 1:10 faculty-student ratio, state-of-the-art labs, and mentors drawn from industry and academia, every student receives individual attention and real-world exposure. Here, young minds evolve into confident, adaptable professionals equipped to solve complex challenges and drive meaningful change in an ever-evolving world.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Vidyashilp University Campus" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Partnerships -->
+    <section class="partnerships-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">GLOBAL PARTNERSHIPS THAT OPEN THE WORLD TO YOU</h2>
+            </div>
+
+            <p class="partnership-text">Your classroom isn't limited to Bengaluru - it stretches across the globe.</p>
+
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <h4 class="feature-title">International Exchange Programs</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4 class="feature-title">Collaborative Research</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4 class="feature-title">Dual Degree Options</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4 class="feature-title">Global Internships</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accreditations -->
+    <section class="accreditations-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ACCREDITATIONS</h2>
+            </div>
+
+            <p class="accreditation-text">Every programme meets the highest national standards, giving students and parents complete confidence in the quality, credibility, and future value of a Vidyashilp degree.</p>
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-4 text-center mb-5">
+                    <img src="https://via.placeholder.com/250x120/1a237e/ffffff?text=UGC" alt="UGC" class="accreditation-logo">
+                    <h4 class="mt-4">University Grants Commission (UGC)</h4>
+                </div>
+                <div class="col-md-4 text-center mb-5">
+                    <img src="https://via.placeholder.com/250x120/ffb300/000000?text=BCI" alt="BCI" class="accreditation-logo">
+                    <h4 class="mt-4">Bar Council of India (BCI)</h4>
+                </div>
+                <div class="col-md-4 text-center mb-5">
+                    <img src="https://via.placeholder.com/250x120/26a69a/ffffff?text=AIU" alt="AIU" class="accreditation-logo">
+                    <h4 class="mt-4">Association of Indian Universities (AIU)</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="contact-title">Set to Unlock Your Bold Side?</h2>
+                <p class="contact-subtitle">Fill in your details to get started on your journey with Vidyashilp University</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="contact-form" id="mainContactForm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" placeholder="Mobile Number" required>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-control" required>
+                                    <option value="">Select Program</option>
+                                    <option value="cse-ds">B.Tech CSE - Data Science</option>
+                                    <option value="cse-ai">B.Tech CSE - AI/ML</option>
+                                    <option value="other">Other Programs</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <select class="form-control" required>
+                                    <option value="">Select State</option>
+                                    <option value="karnataka">Karnataka</option>
+                                    <option value="maharashtra">Maharashtra</option>
+                                    <option value="tamilnadu">Tamil Nadu</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-control" required>
+                                    <option value="">Select City</option>
+                                    <option value="bangalore">Bangalore</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="chennai">Chennai</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" id="agreeCheckMain" required>
+                            <label class="form-check-label" for="agreeCheckMain">
+                                I agree to receive information.
+                            </label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-register">Register Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <h5 class="footer-title">VIDYASHILP UNIVERSITY</h5>
+                    <p class="footer-contact">
+                        <i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India<br>
+                        <i class="fas fa-phone"></i> +91 80 1234 5678<br>
+                        <i class="fas fa-envelope"></i> admissions@vidyashilp.edu.in
+                    </p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#about">About University</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#scholarships">Scholarships</a></li>
+                        <li><a href="#campus">Campus Life</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="footer-title">Programs</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">B.Tech CSE - Data Science</a></li>
+                        <li><a href="#">B.Tech CSE - AI/ML</a></li>
+                        <li><a href="#">BBA</a></li>
+                        <li><a href="#">B.Des</a></li>
+                        <li><a href="#">BA LLB</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h5 class="footer-title">Resources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Brochure</a></li>
+                        <li><a href="#">Fee Structure</a></li>
+                        <li><a href="#">Placements</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vidyashilp University. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Form submission handling for hero form
+        document.getElementById('heroForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your interest in Vidyashilp University! We will contact you shortly.');
+            this.reset();
+        });
+        
+        // Form submission handling for main contact form
+        document.getElementById('mainContactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your interest in Vidyashilp University! We will contact you shortly.');
+            this.reset();
+        });
+        
+        // Add animation on scroll
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.scrollY;
+            const floatBtn = document.querySelector('.float-enquire-btn');
+            
+            // Show/hide float button based on scroll
+            if (scrollPosition > 500) {
+                floatBtn.style.opacity = '1';
+                floatBtn.style.visibility = 'visible';
+            } else {
+                floatBtn.style.opacity = '0';
+                floatBtn.style.visibility = 'hidden';
+            }
+        });
+        
+        // Initialize float button
+        document.querySelector('.float-enquire-btn').style.opacity = '0';
+        document.querySelector('.float-enquire-btn').style.visibility = 'hidden';
+        document.querySelector('.float-enquire-btn').style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
+    </script>
+</body>
+</html>
